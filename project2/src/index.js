@@ -8,6 +8,7 @@ import ConditionalPropsParent from './component2/conditionalpropsparent';
 import DynamicStyleParent from './component3/dynamicstyleparent';
 
 import EventHandleParent from './component4/eventhandleparent';
+import PassingMultiplePropsParent from './component5/passingmultiplepropsparent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <ConditionalPropsParent />
     <DynamicStyleParent />
     <EventHandleParent />
+    <PassingMultiplePropsParent />
   </React.StrictMode>
 );
 
