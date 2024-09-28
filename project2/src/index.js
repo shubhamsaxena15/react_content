@@ -5,13 +5,14 @@ import ReactDOM from 'react-dom/client';
 
 import Parent from './component1/parent';
 import ConditionalPropsParent from './component2/conditionalpropsparent';
-
+import DynamicStyleParent from './component3/dynamicstyleparent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Parent />
     <ConditionalPropsParent />
+    <DynamicStyleParent />
   </React.StrictMode>
 );
 
