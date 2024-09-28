@@ -5,7 +5,9 @@ import ReactDOM from 'react-dom/client';
 
 import Parent from './component1/parent';
 import ConditionalPropsParent from './component2/conditionalpropsparent';
-import DynamicStyleParent from './component3/dynamicstyleparent'
+import DynamicStyleParent from './component3/dynamicstyleparent';
+
+import EventHandleParent from './component4/eventhandleparent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,7 @@ root.render(
     <Parent />
     <ConditionalPropsParent />
     <DynamicStyleParent />
+    <EventHandleParent />
   </React.StrictMode>
 );
 
