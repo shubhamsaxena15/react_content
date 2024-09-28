@@ -8,18 +8,17 @@ function ReactChildrenMapUtilityChild({children}){
         <div>
             {React.Children.map(children, (child) => (
         <button style={{ margin: '5px'} }>{child}</button>
+        
         ))}
         </div>
-        
-        
-        /*    Not Working Code
-        <div>
-            <button style={{margin:'5px'}}>{children}</button>
-
-        </div> */
-        
-        
     )
-}
-
+}       
+        /*
+        function ReactChildrenMapUtilityChild(props){
+        return(  
+        <div>
+            <button style={{margin:'5px'}}>{props.button}</button>
+        </div> 
+        )
+        */
 export default ReactChildrenMapUtilityChild;

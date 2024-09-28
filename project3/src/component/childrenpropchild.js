@@ -11,4 +11,14 @@ const Box = ({ children }) => {
     );
   };
 
+
+  /* function Box(props){
+    return(
+      <div style={{ border: '1px solid black', padding: '10px' }}>
+        <li>{props.item}</li>
+      </div>
+
+    )
+  } */
+
 export default Box;
