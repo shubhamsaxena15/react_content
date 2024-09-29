@@ -5,6 +5,7 @@ import ChildrenUseParent from './component/childrenuseparent'
 import DirectAceessParent from './component/directaccessparent'
 import CombinePropsChildrenParent from './component/combinepropschildrenparent'
 import UseConfigParent from './component/useconfigparent'
+import PropChainDrillingParent from './component/propchaindrillingparent'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
     <DirectAceessParent />
     <CombinePropsChildrenParent />
     <UseConfigParent />
+    <PropChainDrillingParent />
   </React.StrictMode>
 );
 
